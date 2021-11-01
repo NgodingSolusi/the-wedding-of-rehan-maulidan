@@ -28,27 +28,6 @@
 </div>
 
 <!-- The wedding -->
-## Rayhan Yulanda <img src="images/readme/woman.png" width="30px">
-
-
-
-Reach me around the web :
-
-<a href="https://linkedin.com/in/rayhanyulanda">
-  <img alt="Rehan's Linkdein" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051282.png" />
-</a>
-<a target="_blank" href="https://github.com/rayhanyulanda">
-<img alt="Rehan's Github" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051275.png" />
-</a>
-<a target="_blank" href="https://www.facebook.com/rayhanyulanda/">
-<img alt="Rehan's Facebook" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051258.png" />
-</a>
-<a target="_blank" href="https://medium.com/@rayhanyulanda">
-<img alt="Rehan's Medium" width="22px" src="https://cdn-icons-png.flaticon.com/512/5968/5968906.png" />
-</a>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ## Maulidan Nashuha <img src="images/readme/man.png" width="30px">
 
 
@@ -74,5 +53,27 @@ Reach me around the web :
 <img src="https://img.shields.io/badge/Spotify-%231ED760.svg?&style=flat-square&logo=spotify&logoColor=white" alt="Spotify">
 </a>-->
 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+## Rayhan Yulanda <img src="images/readme/woman.png" width="30px">
+
+
+
+Reach me around the web :
+
+<a href="https://linkedin.com/in/rayhanyulanda">
+  <img alt="Rehan's Linkdein" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051282.png" />
+</a>
+<a target="_blank" href="https://github.com/rayhanyulanda">
+<img alt="Rehan's Github" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051275.png" />
+</a>
+<a target="_blank" href="https://www.facebook.com/rayhanyulanda/">
+<img alt="Rehan's Facebook" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051258.png" />
+</a>
+<a target="_blank" href="https://medium.com/@rayhanyulanda">
+<img alt="Rehan's Medium" width="22px" src="https://cdn-icons-png.flaticon.com/512/5968/5968906.png" />
+</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
