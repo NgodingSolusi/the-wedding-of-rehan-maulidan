@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://maulidandev.github.io/nikah-rehan-maulidan">
-    <img src="images/half%20circle.png" alt="Logo" width="120" height="120">
+    <img src="images/readme/half%20circle.png" alt="Logo" width="120" height="120">
   </a>
 
   <h1 align="center">The Wedding</h1>
@@ -18,7 +18,7 @@
   <p align="center">
     <strong>Rehan & Maulidan</strong>
     <br />
-    <a href="https://maulidandev.github.io/nikah-rehan-maulidan">Explore the Invitation »</a>
+    <a href="https://maulidandev.github.io/nikah-rehan-maulidan">Explore the Invitation ! »</a>
     <br />
     <br />
     <a href="https://github.com/rayhanyulanda">Rayhan Yulanda</a>
@@ -28,7 +28,7 @@
 </div>
 
 <!-- The wedding -->
-## Rayhan Yulanda
+## Rayhan Yulanda <img src="images/readme/woman.png" width="30px">
 
 
 
@@ -49,7 +49,7 @@ Reach me around the web :
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Maulidan Nashuha
+## Maulidan Nashuha <img src="images/readme/man.png" width="30px">
 
 
 
