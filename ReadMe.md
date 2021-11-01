@@ -19,15 +19,15 @@
 <br />
 <div align="center">
   <a href="https://maulidandev.github.io/nikah-rehan-maulidan">
-    <img src="https://raw.githubusercontent.com/maulidandev/nikah-rehan-maulidan/master/images/half.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/maulidandev/nikah-rehan-maulidan/main/images/half%20circle.png?token=ADUOO2WQIDMGUZAZPA727JDBP72DC" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">The Wedding</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Rehan & Maulidan
     <br />
-    <a href="https://maulidandev.github.io/nikah-rehan-maulidan"><strong>Lihat undangan kami »</strong></a>
+    <a href="https://maulidandev.github.io/nikah-rehan-maulidan"><strong>Explore the Invitation »</strong></a>
     <br />
     <br />
     <a href="https://github.com/rayhanyulanda">Rayhan Yulanda</a>
@@ -67,37 +67,52 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Rayhan Yulanda
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Reach me around the web :
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+<a href="https://linkedin.com/in/rayhanyulanda">
+  <img alt="Rehan's Linkdein" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051282.png" />
+</a>
+<a target="_blank" href="https://github.com/rayhanyulanda">
+<img alt="Rehan's Github" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051275.png" />
+</a>
+<a target="_blank" href="https://www.facebook.com/rayhanyulanda/">
+<img alt="Rehan's Facebook" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051258.png" />
+</a>
+<a target="_blank" href="https://medium.com/@rayhanyulanda">
+<img alt="Rehan's Medium" width="22px" src="https://cdn-icons-png.flaticon.com/512/5968/5968906.png" />
+</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Maulidan Nashuha
 
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-### Built With
+Reach me around the web :
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+<a href="https://www.linkedin.com/in/maulidandev/" target="_blank">
+<img src="https://img.shields.io/badge/Github-%fedcba.svg?&style=flat-square&logo=github&logoColor=white&color=black" alt="Github">
+</a>
+<a href="https://www.linkedin.com/in/maulidandev/" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="https://www.instagram.com/maulidannashuha/" target="_blank">
+<img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram">
+</a>
+<!--<a href="https://twitter.com/maulidandev" target="_blank">
+<img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" alt="Twitter">
+</a>
+<a href="https://dev.to/ABSphreak" target="_blank">
+<img src="https://img.shields.io/badge/DEV-%230A0A0A.svg?&style=flat-square&logo=DEV.to&logoColor=white" alt="DEV.to">
+</a>
+<a href="https://open.spotify.com/user/0170agi99s5hh187g7mtz245b" target="_blank">
+<img src="https://img.shields.io/badge/Spotify-%231ED760.svg?&style=flat-square&logo=spotify&logoColor=white" alt="Spotify">
+</a>-->
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
