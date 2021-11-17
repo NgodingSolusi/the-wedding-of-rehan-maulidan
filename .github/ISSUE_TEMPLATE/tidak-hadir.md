@@ -2,7 +2,7 @@
 name: Tidak Hadir
 about: Kami mengundang anda untuk hadir di acara pernikahan kami
 title: Namamu
-labels: Tidak Hadir
+labels: tidak hadir
 assignees: ''
 
 ---
