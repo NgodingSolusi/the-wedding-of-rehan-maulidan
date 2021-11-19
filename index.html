@@ -125,6 +125,27 @@
 			</div>
 		</header>-->
 
+		<div id="overlay">
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box fadeInUp animated-fast">
+							<img src="images/half%20circle%20flower.png" alt="" class="couple-main">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<h1>Rehan & Maulidan</h1>
+							<p style="margin-bottom: 0">Kepada Bapak/Ibu/Saudara/i</p>
+							<p>Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.</p>
+
+							<button class="btn btn-primary" id="open-invitation">Buka Undangan</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
         <div id="fh5co-header">
             <div class="container">
                 <div class="row">
@@ -539,6 +560,10 @@
 		month: d.getMonth() + 1,
 		day: d.getDate(),
 		enableUtc: false
+	});
+
+	$('#open-invitation').click(function (){
+		$('#overlay').addClass('hide-overlay');
 	});
 </script>
 

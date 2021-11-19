@@ -480,6 +480,51 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0 !important;
 }
 
+#overlay {
+  background: #ffffff;
+  background-image: url("../images/overlay.JPG");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+#overlay .content {
+  background: rgba(0, 0, 0, 0.7);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2001;
+  top: 0;
+}
+#overlay .content .container {
+  padding-top: 80px;
+}
+#overlay .content .couple-main {
+  width: 200px;
+}
+#overlay .content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: #0298d4;
+  font-family: "Sacramento", Arial, serif;
+}
+#overlay .content .fh5co-heading {
+  margin-bottom: 10px;
+}
+#overlay .content p {
+  color: #ffffff;
+}
+
+.hide-overlay {
+  transform: translateY(200%);
+  transition: 0.4s ease-in-out;
+}
+
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
@@ -1039,11 +1084,6 @@ form label {
 .fh5co-section {
     padding: 3em 0;
   }
-}
-
-.fh5co-couple .fh5co-heading h2 {
-  font-size: 38px !important;
-  font-weight: normal !important;
 }
 
 .fh5co-section-gray {
