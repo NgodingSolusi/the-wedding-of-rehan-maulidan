@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Yanone Kaffeesatz", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -1285,7 +1285,7 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #113468;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Dancing Script", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
