@@ -1943,4 +1943,9 @@ form label {
   opacity: 0;
 }
 
+.parents-font{
+  font-family: "Estonia", Arial, serif;
+  font-size: 25px;
+}
+
 /*# sourceMappingURL=style.css.map */
