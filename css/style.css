@@ -64,7 +64,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Yanone Kaffeesatz", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -476,7 +476,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 1.5;
   font-weight: normal;
   color: #113468;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Satisfy", Arial, serif;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header h1 {
@@ -519,7 +519,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 1.5;
   font-weight: normal;
   color: #0298d4;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Satisfy", Arial, serif;
 }
 @media screen and (max-width: 480px) {
   #overlay .content h1 {
@@ -937,7 +937,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Satisfy", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
