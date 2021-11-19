@@ -780,6 +780,18 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 // GALLERY
+#fh5co-gallery{
+	.carousel{
+		max-height: 550px;
+		overflow: hidden;
+	}
+
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+		max-width: 100%;
+		height: 550px;
+		margin: 0 auto;
+	}
+}
 #fh5co-gallery-list {
 	@include flexwrap;
 	@include flex;
