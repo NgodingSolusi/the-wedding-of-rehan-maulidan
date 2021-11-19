@@ -527,6 +527,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 	.couple-main{
 		width: 400px;
+
+		@media screen and (max-width: $screen-xs) {
+			width: 250px;
+		}
 	}
 
 	h1 {
@@ -536,6 +540,10 @@ h1, h2, h3, h4, h5, h6, figure {
 		font-weight: normal;
 		color: #113468;
 		font-family: "Sacramento", Arial, serif;
+
+		@media screen and (max-width: $screen-xs) {
+			font-size: 38px;
+		}
 	}
 
 	.simply-countdown{
@@ -578,6 +586,10 @@ h1, h2, h3, h4, h5, h6, figure {
 			font-weight: normal;
 			color: #0298d4;
 			font-family: "Sacramento", Arial, serif;
+
+			@media screen and (max-width: $screen-xs) {
+				font-size: 38px;
+			}
 		}
 
 		.fh5co-heading{
@@ -1094,6 +1106,19 @@ form {
 	clear: both;
 	@media screen and (max-width: $screen-sm) {
 		padding: 3em 0;
+	}
+}
+
+#fh5co-couple{
+	.fh5co-heading{
+		h2{
+			font-size: 38px;
+			font-weight: normal;
+
+			@media screen and (max-width: $screen-sm) {
+				font-size: 28px;
+			}
+		}
 	}
 }
 
