@@ -1,6 +1,6 @@
 ---
 name: Tidak Hadir
-about: Kami mengundang anda untuk hadir di acara pernikahan kami
+about: Doakan kami di acara pernikahan kami
 title: Namamu
 labels: tidak hadir
 assignees: ''
