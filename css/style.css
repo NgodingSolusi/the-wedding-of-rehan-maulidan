@@ -1120,6 +1120,11 @@ form label {
   background-repeat : repeat;
 }
 
+#fh5co-testimonial{
+  background-image: url("../images/background/repeat-background/vintage-concrete.png");
+  background-repeat : repeat;
+}
+
 #fh5co-couple .fh5co-heading h2 {
   font-size: 38px;
   font-weight: normal;
@@ -1761,7 +1766,7 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Didact Gothic", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
