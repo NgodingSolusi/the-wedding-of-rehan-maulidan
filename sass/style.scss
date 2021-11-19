@@ -434,7 +434,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-	height: 850px;
+	//height: 850px;
 	float: left;
 	.display-t,
 	.display-tc {
@@ -472,8 +472,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 
 	.event-wrap{
-		border: 2px solid rgba($brand-white,.5);
-		background:rgba($brand-white,.1);
+		//border: 2px solid rgba($brand-primary,.5);
+		background:rgba($brand-white,1);
 		padding: 30px;
 		width: 100%;
 		float: left;
@@ -483,19 +483,21 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 		h3{
 			font-size: 20px;
-			color: $brand-white;
-			border-bottom: 1px solid rgba($brand-white,.5);
+			color: $brand-primary;
+			border-bottom: 1px solid rgba($brand-primary,.5);
 			display: block;
 			padding-bottom: 20px;
 			text-transform: uppercase;
 			letter-spacing: 2px;
+			font-family: "Sacramento", Arial, serif;
+			font-weight: bold;
 		}
 		p,span{
 			display: block;
-			color: rgba($brand-white,.8);
+			//color: rgba($brand-white,.8);
 		}
 		i{
-			color: rgba($brand-white,1);
+			//color: rgba($brand-white,1);
 			font-size: 20px;
 		}
 		.event-col{
