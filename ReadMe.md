@@ -78,7 +78,7 @@ Reach me around the web :
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-###Our big thanks to :
+### Our big thanks to :
 - [Flaticon](https://flaticon.com) - for the assets
 - [Freepik](https://freepik.com) - for the images
 - [Base Template](https://technext.github.io/wedding/)
