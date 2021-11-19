@@ -515,6 +515,31 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
+#fh5co-header{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url(https://wekita.id/wp-content/uploads/2021/07/YOI.png);
+	background-size: cover;
+
+	.couple-main{
+		width: 350px;
+	}
+
+	h1 {
+		font-size: 60px;
+		margin-bottom: 10px;
+		line-height: 1.5;
+		font-weight: normal;
+		color: #113468;
+		font-family: "Sacramento", Arial, serif;
+	}
+
+	.simply-countdown{
+		margin-top: 50px;
+		margin-bottom: 0 !important;
+	}
+}
+
 
 // TIMELINE
 .timeline {
