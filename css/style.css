@@ -461,8 +461,11 @@ h1, h2, h3, h4, h5, h6, figure {
   background-image: url(https://wekita.id/wp-content/uploads/2021/07/YOI.png);
   background-size: cover;
 }
+#fh5co-header .fh5co-heading {
+  margin-bottom: 10px;
+}
 #fh5co-header .couple-main {
-  width: 350px;
+  width: 400px;
 }
 #fh5co-header h1 {
   font-size: 60px;
@@ -1036,6 +1039,11 @@ form label {
 .fh5co-section {
     padding: 3em 0;
   }
+}
+
+.fh5co-couple .fh5co-heading h2 {
+  font-size: 38px !important;
+  font-weight: normal !important;
 }
 
 .fh5co-section-gray {
