@@ -467,6 +467,11 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .couple-main {
   width: 400px;
 }
+@media screen and (max-width: 480px) {
+  #fh5co-header .couple-main {
+    width: 250px;
+  }
+}
 #fh5co-header h1 {
   font-size: 60px;
   margin-bottom: 10px;
@@ -474,6 +479,11 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: normal;
   color: #113468;
   font-family: "Sacramento", Arial, serif;
+}
+@media screen and (max-width: 480px) {
+  #fh5co-header h1 {
+    font-size: 38px;
+  }
 }
 #fh5co-header .simply-countdown {
   margin-top: 50px;
@@ -512,6 +522,11 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: normal;
   color: #0298d4;
   font-family: "Sacramento", Arial, serif;
+}
+@media screen and (max-width: 480px) {
+  #overlay .content h1 {
+    font-size: 38px;
+  }
 }
 #overlay .content .fh5co-heading {
   margin-bottom: 10px;
@@ -1083,6 +1098,16 @@ form label {
 #fh5co-gallery,
 .fh5co-section {
     padding: 3em 0;
+  }
+}
+
+#fh5co-couple .fh5co-heading h2 {
+  font-size: 38px;
+  font-weight: normal;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-couple .fh5co-heading h2 {
+    font-size: 28px;
   }
 }
 
