@@ -797,10 +797,8 @@
 	});
 
 	function scrollToElement(el) {
-		document.querySelector(`#${el}`).scrollIntoView({
-			behavior: 'smooth',
-		});
-	};
+		$("html, body").animate({ scrollTop: $(`#${el}`).offset().top }, 1000);
+	}
 </script>
 
 <script>
