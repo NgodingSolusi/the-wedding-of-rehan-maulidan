@@ -2204,6 +2204,13 @@ fadeIn {  from {
 
   to { opacity: 1; }
 }
+
+.float{
+  position:fixed;
+  bottom:1%;
+  left: 45%;
+  text-align:center;
+}
 /*End floating button*/
 
 /*# sourceMappingURL=style.css.map */
