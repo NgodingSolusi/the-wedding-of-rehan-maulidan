@@ -2213,6 +2213,22 @@ fadeIn {  from {
   width: 100%;
   z-index: 100;
 }
+
+#floating-button .audio-play{
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  margin-right: -320px;
+  margin-top: -11px;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 1px;
+}
+#floating-button .audio-play img{
+  width: 20px;
+}
 /*End floating button*/
 
 /*# sourceMappingURL=style.css.map */

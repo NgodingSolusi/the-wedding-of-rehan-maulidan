@@ -137,6 +137,9 @@
 	<!--Floating button-->
 	<div id="floating-button" class="float">
 		<div class="control-center open">
+			<div class="audio-play">
+				<div data-video="QZng89VxKWg" data-autoplay="1" data-loop="1" id="youtube-audio1"></div>
+			</div>
 			<ul class="right-sidebar">
 				<!--gallery-->
 				<li onclick="scrollToElement('fh5co-gallery')" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADe0lEQVRoge2YTWgVVxiG35Mr1n+qopYkik1dFKRiJGgWLmqrLsSFPy3Y1G6soFkJdulWcFHBgAFRQcGFLgRr1W6kLvz/SdpNQQqtfyXG+oMuaheamMfFzMXPw0zuzOTcG5H7bu7MOe/3fe878805M1eqo4463m8ADUAHcBroBwYJg8E43ylgA9BQDfEtwO+BBFfCb8DHeTW64cRLuiZpxkguQk48ktTunLuTNSDRQHw7eyW1BhKWB72SljjnhrKQ0/pug0ZHvCS1Sfo6KznNQEcYLYWRuX6agUWBhBRFW/kAmDscMc3AzKBy8mOWOb4YLyiJSDNQCqtH9yQtlzRJ0gpJ/1Tg2/rNko7k2ieqsMZ/6eVfUSkgQcv6JK3hd79kXPfOrxXI8V3SYK0MtFc4z4KFmZlVaKG7cdtMAlYC9wq00ECS1rSdmKTxWsI553wt5TGLIi10QNISRUttu6SDBTVWDyl39RXQmcLvBIZG0GJZWih7VyTkGwQ2VYj5Fhh4Fw0MAB3e/EagD9iYwcQzYAswG5gOrANu1crAC7wNBNhM1E7Ev997818BL+P52yR8pACTgfPVNvACWOONbzXiyxgCtnm8VcDNJPGGMwE4Wy0D/wMrvbEfSH9Qh4DtHr/BHI8HThB9Njaa8XHAL9Uw8Ll3viPtSnnYkZBrInDOcP4C5pj5sbG5cAY8ATszigfoAcab2CnAxQTeXeATwxsDHAtuIKf4G8A0E/shcHUY/gNgvuGXgENBDAAO6Moh/gIw2cRPjQ1VwkNggVd3bwgDB3KIPwtMMLGzgD9yxD8GWk28A/aM1MCDjMVPA+NMXBPwZw7xZTwFFifoKBnOYB4DZzIUPQV8YGLmEK0wRfEcWObpaDLzfXkMfFOh2FFgjOHPI8M7fkYTX5i89tPT/6ob1kAJ6E0pchgoGe6nwP0A4sv41eTuNuM/ZjYQBzcDd7zk+3h7h/0M+Deg+H6gOc79EfCfmVuay0CcpIU3L11dgDNzi4AnAcVfAZri3A44buZ6bO28JpzvHmgnek0eCQaAv4GfgNXEdzaut8vjLktW946BqG2Oe+J3j7auVBAtFo1Eq0030SpkcRKzYIQoOJvoRawW2I9ZqkOaaAEuVVF4Dzl6vtCTTfTArVX0d1+rpEZJRa7WK0kPJd2XdF7Sz5IuO+dG/X+pOuqoo0Z4DePtUHAz1eX1AAAAAElFTkSuQmCC)"></li>
@@ -797,6 +800,66 @@
 			behavior: 'smooth',
 		});
 	};
+</script>
+
+<script>
+	// 2. This code loads the IFrame Player API code asynchronously.
+	var tag = document.createElement('script');
+
+	tag.src = "https://www.youtube.com/iframe_api";
+	var firstScriptTag = document.getElementsByTagName('script')[0];
+	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+	// 3. This function creates an <iframe> (and YouTube player)
+	//    after the API code downloads.
+	var player1;
+	function onYouTubeIframeAPIReady() {
+
+		var ctrlq1 = document.getElementById("youtube-audio1");
+		ctrlq1.innerHTML = '<img id="youtube-icon1" src=""/><div id="youtube-player1"></div>';
+		ctrlq1.style.cssText = 'width:20px;margin:0 auto;cursor:pointer;cursor:hand;display:none';
+		ctrlq1.onclick = toggleAudio1;
+
+		player1 = new YT.Player('youtube-player1', {
+			height: '0',
+			width: '0',
+			videoId: ctrlq1.dataset.video,
+			playerVars: {
+				autoplay: ctrlq1.dataset.autoplay,
+				loop: ctrlq1.dataset.loop,
+			},
+			events: {
+				'onReady': onPlayerReady1,
+				'onStateChange': onPlayerStateChange1
+			}
+		});
+	}
+
+	function togglePlayButton1(play) {
+		document.getElementById("youtube-icon1").src = play ? "https://i.imgur.com/IDzX9gL.png" : "https://i.imgur.com/quyUPXN.png";
+	}
+
+	function toggleAudio1() {
+		if ( player1.getPlayerState() == 1 || player1.getPlayerState() == 3 ) {
+			player1.pauseVideo();
+			togglePlayButton1(false);
+		} else {
+			player1.playVideo();
+			togglePlayButton1(true);
+		}
+	}
+
+	function onPlayerReady1(event) {
+		player1.setPlaybackQuality("small");
+		document.getElementById("youtube-audio1").style.display = "block";
+		togglePlayButton1(player1.getPlayerState() !== 5);
+	}
+
+	function onPlayerStateChange1(event) {
+		if (event.data === 0) {
+			togglePlayButton1(false);
+		}
+	}
 </script>
 
 </body>
