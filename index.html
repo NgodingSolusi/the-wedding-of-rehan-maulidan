@@ -138,7 +138,7 @@
 	<div id="floating-button" class="float">
 		<div class="control-center open">
 			<div class="audio-play">
-				<div data-video="QZng89VxKWg" data-autoplay="1" data-loop="1" id="youtube-audio1"></div>
+				<div data-video="QZng89VxKWg" data-autoplay="0" data-loop="1" id="youtube-audio1"></div>
 			</div>
 			<ul class="right-sidebar">
 				<!--gallery-->
@@ -826,7 +826,7 @@
 			width: '0',
 			videoId: ctrlq1.dataset.video,
 			playerVars: {
-				autoplay: 1 /*ctrlq1.dataset.autoplay*/,
+				autoplay: ctrlq1.dataset.autoplay,
 				loop: ctrlq1.dataset.loop,
 			},
 			events: {
