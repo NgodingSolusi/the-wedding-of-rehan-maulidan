@@ -853,6 +853,7 @@
 		player1.setPlaybackQuality("small");
 		document.getElementById("youtube-audio1").style.display = "block";
 		togglePlayButton1(player1.getPlayerState() !== 5);
+		player1.playVideo();
 	}
 
 	function onPlayerStateChange1(event) {
