@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .fh5co-heading h2,
 #fh5co-event .fh5co-heading h2 {
-  color: #fff;
+  color: #113468;
 }
 #fh5co-counter .fh5co-heading span,
 #fh5co-event .fh5co-heading span {
@@ -1123,12 +1123,12 @@ form label {
 }
 
 #fh5co-couple{
-  background-image: url("../images/background/repeat-background/concrete-texture.png");
+  /*background-image: url("../images/background/repeat-background/concrete-texture.png");*/
   background-repeat : repeat;
 }
 
 #fh5co-gallery{
-  background-image: url("../images/background/repeat-background/ep_naturalwhite.png");
+  /*background-image: url("../images/background/repeat-background/ep_naturalwhite.png");*/
   background-repeat : repeat;
 }
 
