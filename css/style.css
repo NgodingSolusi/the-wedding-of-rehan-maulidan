@@ -1136,6 +1136,7 @@ form label {
 #fh5co-testimonial{
   /*background-image: url("../images/background/repeat-background/vintage-concrete.png");*/
   background-repeat : repeat;
+  position: relative;
 }
 
 #fh5co-couple .fh5co-heading h2 {
