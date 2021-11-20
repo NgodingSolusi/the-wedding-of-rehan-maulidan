@@ -1995,6 +1995,7 @@ form label {
 
 #fh5co-health-protocol{
   background-image: url("../images/background/blue-brush-1.jpg");
+  background-size: cover;
   padding: 7em 0;
 }
 #fh5co-health-protocol .icon{
