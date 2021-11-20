@@ -172,15 +172,20 @@
 		$(window).scroll(function(){
 
 			var $win = $(window);
-			if ($win.scrollTop() > 200) {
-				$('.js-top').addClass('active');
-			} else {
-				$('.js-top').removeClass('active');
+			if (!isMobileDevice()){
+				if ($win.scrollTop() > 200) {
+					$('.js-top').addClass('active');
+				} else {
+					$('.js-top').removeClass('active');
+				}
 			}
-
 		});
 	
 	};
+
+	function isMobileDevice(){
+		return ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
+	}
 
 
 	// Loading page
