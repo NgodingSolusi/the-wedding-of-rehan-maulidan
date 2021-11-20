@@ -2023,4 +2023,187 @@ form label {
   color: #bf9b73;
 }
 
+/*Floating button*/
+.control-center {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.option-btn {
+  background-color: #395f95;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 12px 2px rgb(26 72 139);
+  position: relative;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.option-btn:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
+  background-position: center center;
+  background-size: 25px;
+  background-repeat: no-repeat;
+  /*background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNjEyIDYxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjEyIDYxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnPgoJCTxjaXJjbGUgY3g9IjY5LjU0NSIgY3k9IjMwNiIgcj0iNjkuNTQ1IiBmaWxsPSIjRkZGRkZGIi8+CgkJPGNpcmNsZSBjeD0iMzA2IiBjeT0iMzA2IiByPSI2OS41NDUiIGZpbGw9IiNGRkZGRkYiLz4KCQk8Y2lyY2xlIGN4PSI1NDIuNDU1IiBjeT0iMzA2IiByPSI2OS41NDUiIGZpbGw9IiNGRkZGRkYiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);*/
+}
+
+.option-btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  visibility: hiddden;
+  transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAhUlEQVRIie2U0QmAMAxEE3EMcRIdQAdxUXGSDPL8ESmlasUWKfR9hssduY+I/AWwAWsqXWgRgK+6xhPPgLkLPODpDJhcT/UCTES6iAPvMFXtrwIeK4lBVU/f5k6YguwBbWjonviGUMXlV1QDakCpAcDw1ggYQ/Ps79q/YBER+2J+eFTi2QH5gHBCJs9nEQAAAABJRU5ErkJggg==);
+}
+
+.option-btn.open:after {
+  opacity: 0;
+  visibility: hiddden;
+  transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
+}
+
+.option-btn.open:before {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
+}
+
+.right-sidebar {
+  list-style: none;
+  background-color: #325587;
+  height: 50px;
+  padding: 0 25px 0 35px;
+  margin: 0;
+  margin-left: -25px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.right-sidebar li {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 27px;
+  height: 100%;
+  width: 30px;
+  margin-left: 20px;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.left-sidebar {
+  list-style: none;
+  background-color: #325587;
+  height: 50px;
+  padding: 0 25px 0 35px;
+  margin: 0;
+  margin-right: -25px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.left-sidebar li {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 27px;
+  height: 100%;
+  width: 30px;
+  margin-right: 20px;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.right-sidebar, .left-sidebar {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.open .right-sidebar {
+  animation-name: rightslide;
+  animation-duration: .5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+.open .left-sidebar {
+  animation-name: leftslide;
+  animation-duration: .5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+.open .right-sidebar li:nth-child(1), .open .left-sidebar li:nth-child(2) {
+  animation-name: fadeIn;
+  animation-duration: .3s;
+  animation-delay: .4s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+
+.open .right-sidebar li:nth-child(2), .open .left-sidebar li:nth-child(1) {
+  animation-name: fadeIn;
+  animation-duration: .3s;
+  animation-delay: .5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+@keyframes
+rightslide {  from {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-30%, 0);
+}
+
+  to {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+}
+@keyframes
+leftslide {  from {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(30%, 0);
+}
+
+  to {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+}
+@keyframes
+fadeIn {  from {
+  opcity: 0;
+}
+
+  to { opacity: 1; }
+}
+/*End floating button*/
+
 /*# sourceMappingURL=style.css.map */
