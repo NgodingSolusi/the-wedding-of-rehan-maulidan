@@ -2207,9 +2207,10 @@ fadeIn {  from {
 
 .float{
   position:fixed;
-  bottom:1%;
-  left: 45%;
+  bottom:20px;
   text-align:center;
+  width: 100%;
+  z-index: 100;
 }
 /*End floating button*/
 
