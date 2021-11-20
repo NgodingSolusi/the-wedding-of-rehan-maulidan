@@ -642,48 +642,7 @@
 
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2">
-						<div class="list-group">
-							<a class="list-group-item">
-								<div class="name">John Doe <span class="label label-success">Success</span></div>
-								<div class="comment">Barakallah, semoga dilancarkan sampai hari H dan seterusnya aamiin</div>
-							</a>
-							<a class="list-group-item">
-								<div class="name">John Doe <span class="label label-success">Success</span></div>
-								<div class="comment">Barakallah, semoga dilancarkan sampai hari H dan seterusnya aamiin</div>
-							</a>
-							<a class="list-group-item">
-								<div class="name">John Doe <span class="label label-success">Success</span></div>
-								<div class="comment">Barakallah, semoga dilancarkan sampai hari H dan seterusnya aamiin</div>
-							</a>
-							<a class="list-group-item">
-								<div class="name">John Doe <span class="label label-success">Success</span></div>
-								<div class="comment">Barakallah, semoga dilancarkan sampai hari H dan seterusnya aamiin</div>
-							</a>
-							<a class="list-group-item">
-								<div class="name">John Doe <span class="label label-success">Success</span></div>
-								<div class="comment">Barakallah, semoga dilancarkan sampai hari H dan seterusnya aamiin</div>
-							</a>
-							<a class="list-group-item">
-								<div class="name">John Doe <span class="label label-success">Success</span></div>
-								<div class="comment">Barakallah, semoga dilancarkan sampai hari H dan seterusnya aamiin</div>
-							</a>
-							<a class="list-group-item">
-								<div class="name">John Doe <span class="label label-success">Success</span></div>
-								<div class="comment">Barakallah, semoga dilancarkan sampai hari H dan seterusnya aamiin</div>
-							</a>
-							<a class="list-group-item">
-								<div class="name">John Doe <span class="label label-success">Success</span></div>
-								<div class="comment">Barakallah, semoga dilancarkan sampai hari H dan seterusnya aamiin</div>
-							</a>
-							<a class="list-group-item">
-								<div class="name">John Doe <span class="label label-success">Success</span></div>
-								<div class="comment">Barakallah, semoga dilancarkan sampai hari H dan seterusnya aamiin</div>
-							</a>
-							<a class="list-group-item">
-								<div class="name">John Doe <span class="label label-success">Success</span></div>
-								<div class="comment">Barakallah, semoga dilancarkan sampai hari H dan seterusnya aamiin</div>
-							</a>
-						</div>
+						<div class="list-group"></div>
 					</div>
 				</div>
 
@@ -816,6 +775,19 @@
 		for (var i = 0; i < c.length; i++) {
 			c[i].classList.add('animate');
 		}*/
+	});
+
+	$.get( "https://api.github.com/repos/maulidandev/movie-catalogue/issues", function( data ) {
+		for (let i = 0; i < data.length; i++){
+			const item = `
+				<a class="list-group-item">
+					<div class="name">${data[i].title} <span class="label label-success">${data[i].labels.length > 0 ? data[i].labels[0].name : 'Tanpa Keterangan'}</span></div>
+					<div class="comment">${data[i].body}</div>
+				</a>
+			`;
+
+			$("#fh5co-testimonial .list-group").append(item);
+		}
 	});
 </script>
 
