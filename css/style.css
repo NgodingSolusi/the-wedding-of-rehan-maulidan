@@ -833,6 +833,18 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+/* Ayat */
+#fh5co-ayat{
+  background-color: #113468;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+#fh5co-ayat .ayat-content{
+  padding: 7em 0;
+  text-align: center;
+}
+
 #map {
   width: 100%;
   height: 500px;
