@@ -1133,7 +1133,7 @@ form label {
 }
 
 #fh5co-testimonial{
-  background-image: url("../images/background/repeat-background/vintage-concrete.png");
+  /*background-image: url("../images/background/repeat-background/vintage-concrete.png");*/
   background-repeat : repeat;
 }
 
@@ -1403,6 +1403,16 @@ form label {
 }
 #fh5co-testimonial .wrap-testimony .arrow-thumb a:hover, #fh5co-testimonial .wrap-testimony .arrow-thumb a:focus, #fh5co-testimonial .wrap-testimony .arrow-thumb a:active {
   text-decoration: none;
+}
+#fh5co-testimonial .list-group{
+  max-height: 250px;
+  overflow: auto;
+}
+#fh5co-testimonial .list-group .name{
+  font-weight: bold;
+}
+#fh5co-testimonial #button-send{
+  /*margin-top: 25px;*/
 }
 
 .feature-left {
