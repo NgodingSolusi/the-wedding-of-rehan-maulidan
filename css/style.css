@@ -401,7 +401,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
-  background: white;
+  background: url('../images/background/repeat-background/so-white.png');
+  background-size: cover;
   padding: 30px;
   width: 100%;
   float: left;
