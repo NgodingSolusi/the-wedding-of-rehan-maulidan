@@ -774,6 +774,7 @@
 
 	$('#open-invitation').click(function (){
 		$('#overlay').addClass('hide-overlay');
+		playAudio1();
 		/*yang bagian floating button ada animasinya tapi karena ketutup dulu sama overlay jadinya gak nampak*/
 		/*pengen pas di klik buka undangan baru jalan animasinya*/
 		/*var c = document.getElementsByClassName('right-sidebar');
@@ -849,11 +850,17 @@
 		}
 	}
 
+	function playAudio1() {
+		if ( !(player1.getPlayerState() == 1 || player1.getPlayerState() == 3) ) {
+			player1.playVideo();
+			togglePlayButton1(true);
+		}
+	}
+
 	function onPlayerReady1(event) {
 		player1.setPlaybackQuality("small");
 		document.getElementById("youtube-audio1").style.display = "block";
 		togglePlayButton1(player1.getPlayerState() !== 5);
-		player1.playVideo();
 	}
 
 	function onPlayerStateChange1(event) {
