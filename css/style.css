@@ -2232,4 +2232,33 @@ fadeIn {  from {
 }
 /*End floating button*/
 
+/*Mobile*/
+@media (max-width:768px) {
+  .flower-1 {
+    height: 2%;
+  }
+  .flower-2-left{
+    left: -10px;
+    height: 2%;
+    /*goes to bottom*/
+  }
+  .flower-2-right{
+    right: -10px;
+    height: 2%;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 768px) {
+  .flower-1 {
+    height: 6%;
+  }
+  .flower-2-left{
+    left: -30px;
+  }
+  .flower-2-right{
+    right: -30px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
