@@ -1128,6 +1128,7 @@ form label {
 #fh5co-couple{
   /*background-image: url("../images/background/repeat-background/concrete-texture.png");*/
   background-repeat : repeat;
+  position: relative;
 }
 
 #fh5co-gallery{
@@ -2254,9 +2255,11 @@ fadeIn {  from {
     height: 6%;
   }
   .flower-2-left{
+    height: 300px;
     left: -30px;
   }
   .flower-2-right{
+    height: 300px;
     right: -30px;
   }
 }
