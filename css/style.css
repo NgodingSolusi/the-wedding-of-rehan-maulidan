@@ -2274,10 +2274,11 @@ fadeIn {  from {
   .flower-3-top{
     height: 200px;
     bottom: 40px;
+    top: 5%
   }
   .flower-4-bottom{
     height: 200px;
-    bottom: 25px;
+    bottom: 5%;
   }
   .flower-bukutamu-right{
     height: 25%;
