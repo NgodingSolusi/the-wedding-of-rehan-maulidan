@@ -2236,6 +2236,21 @@ fadeIn {  from {
 }
 /*End floating button*/
 
+.flower-3-top{
+  height: 300px;
+  top: 35px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.flower-4-bottom{
+  height: 300px;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  position: absolute;
+}
+
 /*Mobile*/
 @media (max-width:768px) {
   .flower-1 {
@@ -2249,6 +2264,14 @@ fadeIn {  from {
   .flower-2-right{
     right: -10px;
     height: 2%;
+  }
+  .flower-3-top{
+    height: 200px;
+    bottom: 40px;
+  }
+  .flower-4-bottom{
+    height: 200px;
+    bottom: 25px;
   }
   .flower-bukutamu-right{
     height: 25%;
@@ -2271,20 +2294,6 @@ fadeIn {  from {
   .flower-2-right{
     height: 300px;
     right: -30px;
-  }
-  .flower-3-top{
-    height: 300px;
-    top: 35px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-  }
-  .flower-4-bottom{
-    height: 300px;
-    bottom: 50px;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    position: absolute;
   }
 }
 
