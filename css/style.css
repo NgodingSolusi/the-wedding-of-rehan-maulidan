@@ -2263,12 +2263,11 @@ fadeIn {  from {
   .flower-2-left{
     height: 300px;
     left: -30px;
-    height: 6%;
+    bottom: 0;
   }
   .flower-2-right{
     height: 300px;
     right: -30px;
-    height: 6%;
   }
 }
 
