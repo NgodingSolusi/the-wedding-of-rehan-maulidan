@@ -2263,13 +2263,13 @@ fadeIn {  from {
     height: 2%;
   }
   .flower-2-left{
-    left: -10px;
-    height: 2%;
-    /*goes to bottom*/
+    left: -20px;
+    height: 200px;
+    bottom: 0;
   }
   .flower-2-right{
-    right: -10px;
-    height: 2%;
+    right: -20px;
+    height: 200px;
   }
   .flower-3-top{
     height: 200px;
