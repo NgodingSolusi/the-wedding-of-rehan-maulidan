@@ -717,6 +717,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-gallery .carousel {
+  background: #ffffff;
   max-height: 550px;
   overflow: hidden;
 }
@@ -1134,6 +1135,8 @@ form label {
 #fh5co-gallery{
   /*background-image: url("../images/background/repeat-background/ep_naturalwhite.png");*/
   background-repeat : repeat;
+  position: relative;
+  overflow: hidden;
 }
 
 #fh5co-testimonial{
@@ -2268,6 +2271,20 @@ fadeIn {  from {
   .flower-2-right{
     height: 300px;
     right: -30px;
+  }
+  .flower-3-top{
+    height: 300px;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  .flower-4-bottom{
+    height: 300px;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    position: absolute;
   }
 }
 
