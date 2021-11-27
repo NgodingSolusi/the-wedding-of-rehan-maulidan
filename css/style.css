@@ -2294,11 +2294,11 @@ fadeIn {  from {
     height: 6%;
   }
   .flower-2-left{
-    height: 300px;
+    height: 60%;
     left: -30px;
   }
   .flower-2-right{
-    height: 300px;
+    height: 60%;
     right: -30px;
   }
 }
