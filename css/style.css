@@ -2247,6 +2247,12 @@ fadeIn {  from {
     right: -10px;
     height: 2%;
   }
+  .flower-bukutamu-right{
+    height: 25%;
+  }
+  .flower-bukutamu-left{
+    height: 20%;
+  }
 }
 
 /*Desktop*/
@@ -2257,10 +2263,12 @@ fadeIn {  from {
   .flower-2-left{
     height: 300px;
     left: -30px;
+    height: 6%;
   }
   .flower-2-right{
     height: 300px;
     right: -30px;
+    height: 6%;
   }
 }
 
