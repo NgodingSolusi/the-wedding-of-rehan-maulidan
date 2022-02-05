@@ -37,7 +37,7 @@ Reach me around the web :
 <a href="https://www.linkedin.com/in/maulidandev/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
-<a href="https://www.linkedin.com/in/maulidandev/" target="_blank">
+<a href="https://www.github.com/in/maulidandev/" target="_blank">
 <img src="https://img.shields.io/badge/Github-%fedcba.svg?&style=flat-square&logo=github&logoColor=white&color=black" alt="Github">
 </a>
 <a href="https://www.instagram.com/maulidannashuha/" target="_blank">
