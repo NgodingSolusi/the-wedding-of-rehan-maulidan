@@ -292,12 +292,12 @@
 									<p style="font-family: 'Courgette', Arial, serif">Alamat : Masjid Keuchik Leumik, Gampong Lamseupeung, Kec. Lueng Bata, Banda Aceh</p>
 
 									<!-- For desktop device screen -->
-									<a href="https://www.google.com/maps?daddr=masjid+keuchik+leumik" target="_blank"
-									   class="btn btn-primary hidden-sm hidden-xs">Penunjuk Lokasi <i class="icon-map2"></i></a>
+									<a href="#" onclick="akadLocation()" target="_blank"
+									   class="btn btn-primary">Penunjuk Lokasi <i class="icon-map2"></i></a>
 
 									<!-- For mobile device screen -->
-									<a href="https://maps.google.com/?daddr=masjid+keuchik+leumik" target="_blank"
-									   class="btn btn-primary visible-sm visible-xs">Penunjuk Lokasi <i class="icon-map2"></i></a>
+<!--									<a href="https://maps.google.com/?daddr=masjid+keuchik+leumik" target="_blank"-->
+<!--									   class="btn btn-primary visible-sm visible-xs">Penunjuk Lokasi <i class="icon-map2"></i></a>-->
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
@@ -316,12 +316,12 @@
 									<p style="font-family: 'Courgette', Arial, serif">Alamat : Amel Convention Hall, Jl. Prof. Ali Hasyimi, Lamteh, Kec. Ulee Kareng, Banda Aceh</p>
 
 									<!-- For desktop device screen -->
-									<a href="https://www.google.com/maps?daddr=Amel+Convention+Hall" target="_blank"
-									   class="btn btn-primary hidden-sm hidden-xs">Penunjuk Lokasi <i class="icon-map2"></i></a>
+									<a href="#" onclick="walimahLocation()" target="_blank"
+									   class="btn btn-primary">Penunjuk Lokasi <i class="icon-map2"></i></a>
 
 									<!-- For mobile device screen -->
-									<a href="https://maps.google.com/?daddr=Amel+Convention+Hall" target="_blank"
-									   class="btn btn-primary visible-sm visible-xs">Penunjuk Lokasi <i class="icon-map2"></i></a>
+<!--									<a href="https://maps.google.com/?daddr=Amel+Convention+Hall" target="_blank"-->
+<!--									   class="btn btn-primary visible-sm visible-xs">Penunjuk Lokasi <i class="icon-map2"></i></a>-->
 								</div>
 							</div>
 							<div class="col-md-12 animate-box" style="margin-top: 15px;">
@@ -857,6 +857,28 @@
 		if (event.data === 0) {
 			togglePlayButton1(false);
 		}
+	}
+</script>
+
+<script>
+	function akadLocation(){
+		// If it's an iPhone..
+		if( (navigator.platform.indexOf("iPhone") != -1)
+				|| (navigator.platform.indexOf("iPod") != -1)
+				|| (navigator.platform.indexOf("iPad") != -1))
+			window.open("maps://www.google.com/maps?daddr=masjid+keuchik+leumik");
+		else
+			window.open("https://www.google.com/maps?daddr=masjid+keuchik+leumik");
+	}
+
+	function walimahLocation(){
+		// If it's an iPhone..
+		if( (navigator.platform.indexOf("iPhone") != -1)
+				|| (navigator.platform.indexOf("iPod") != -1)
+				|| (navigator.platform.indexOf("iPad") != -1))
+			window.open("maps://www.google.com/maps?daddr=Amel+Convention+Hall");
+		else
+			window.open("https://www.google.com/maps?daddr=Amel+Convention+Hall");
 	}
 </script>
 
