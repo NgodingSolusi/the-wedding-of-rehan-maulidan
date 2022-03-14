@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://maulidandev.github.io/nikah-rehan-maulidan">
+  <a href="http://nikah-rehan-maulidan.herokuapp.com/">
     <img src="images/readme/half%20circle.png" alt="Logo" width="120" height="120">
   </a>
 
@@ -18,7 +18,7 @@
   <p align="center">
     <strong>Rehan & Maulidan</strong>
     <br />
-    <a href="https://maulidandev.github.io/nikah-rehan-maulidan">Explore the Invitation ! »</a>
+    <a href="http://nikah-rehan-maulidan.herokuapp.com/">Explore the Invitation ! »</a>
     <br />
     <br />
     <a href="https://github.com/rayhanyulanda">Rayhan Yulanda</a>
@@ -64,16 +64,16 @@ Reach me around the web :
 Reach me around the web :
 
 <a href="https://linkedin.com/in/rayhanyulanda">
-  <img alt="Rehan's Linkdein" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051282.png" />
+  <img alt="Rehan's Linkdein" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/linkedin.png" />
 </a>
 <a target="_blank" href="https://github.com/rayhanyulanda">
-<img alt="Rehan's Github" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051275.png" />
+<img alt="Rehan's Github" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/github.png" />
 </a>
 <a target="_blank" href="https://www.facebook.com/rayhanyulanda/">
-<img alt="Rehan's Facebook" width="22px" src="https://image.flaticon.com/icons/png/128/1051/1051258.png" />
+<img alt="Rehan's Facebook" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/facebook.png" />
 </a>
 <a target="_blank" href="https://medium.com/@rayhanyulanda">
-<img alt="Rehan's Medium" width="22px" src="https://cdn-icons-png.flaticon.com/512/5968/5968906.png" />
+<img alt="Rehan's Medium" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/medium.png" />
 </a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
