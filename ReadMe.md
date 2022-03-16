@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="http://nikah-rehan-maulidan.herokuapp.com/">
+  <a href="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/">
     <img src="images/readme/half%20circle.png" alt="Logo" width="120" height="120">
   </a>
 
@@ -18,7 +18,7 @@
   <p align="center">
     <strong>Rehan & Maulidan</strong>
     <br />
-    <a href="http://nikah-rehan-maulidan.herokuapp.com/">Explore the Invitation ! »</a>
+    <a href="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/">Explore the Invitation ! »</a>
     <br />
     <br />
     <a href="https://github.com/rayhanyulanda">Rayhan Yulanda</a>
