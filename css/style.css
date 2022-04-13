@@ -410,6 +410,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  box-shadow: 0px 7px 6px #ccc;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
@@ -2010,7 +2011,7 @@ form label {
 }
 
 #fh5co-health-protocol{
-  background-image: url("../images/background/blue-brush-1.jpg");
+  /*background-image: url("../images/background/blue-brush-1.jpg");*/
   background-size: cover;
   padding: 7em 0;
 }
