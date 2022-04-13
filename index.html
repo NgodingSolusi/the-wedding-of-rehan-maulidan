@@ -692,6 +692,7 @@
 <script src="lib/lightgallery.js/dist/plugins/thumbnail/lg-thumbnail.min.js"></script>
 <script src="lib/lightgallery.js/dist/plugins/autoplay/lg-autoplay.min.js"></script>
 <script src="lib/lightgallery.js/dist/plugins/fullscreen/lg-fullscreen.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
 
 <script>
 	day = 20; month = 5-1; year = 2022;
@@ -728,12 +729,13 @@
 		}*/
 	});
 
-	$.get( "https://api.github.com/repos/ngodingsolusi/the-wedding-of-rehan-maulidan/issues", function( data ) {
+	$.get( "https://api.github.com/repos/ngodingsolusi/the-wedding-of-rehan-maulidan/issues?state=all&per_page", function( data ) {
 		for (let i = 0; i < data.length; i++){
 			const item = `
 				<a class="list-group-item">
-					<div class="name">${data[i].title} <span class="label label-success">${data[i].labels.length > 0 ? data[i].labels[0].name : 'Tanpa Keterangan'}</span></div>
-					<div class="comment">${data[i].body}</div>
+					<div class="name"><span class="strong" style="font-size: 24px">${data[i].user.login}</span> <span class="label label-success">${data[i].labels.length > 0 ? data[i].labels[0].name : 'Tanpa Keterangan'}</span></div>
+					<hr style="margin-top: 0;">
+					<div class="comment">${new showdown.Converter().makeHtml(data[i].body)}</div>
 				</a>
 			`;
 

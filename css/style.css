@@ -1391,6 +1391,9 @@ form label {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
+#fh5co-testimonial .list-group h4{
+  margin-bottom: 0;
+}
 @media screen and (max-width: 992px) {
   #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
     width: 100%;
@@ -1419,7 +1422,7 @@ form label {
   text-decoration: none;
 }
 #fh5co-testimonial .list-group{
-  max-height: 250px;
+  /*max-height: 250px;*/
   overflow: auto;
 }
 #fh5co-testimonial .list-group .name{
