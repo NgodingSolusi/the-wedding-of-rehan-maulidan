@@ -150,7 +150,7 @@
 	<div id="floating-button" class="float">
 		<div class="control-center open">
 			<div class="audio-play">
-				<div data-video="QZng89VxKWg" data-autoplay="1" data-loop="1" id="youtube-audio1"></div>
+				<div data-video="QZng89VxKWg" data-autoplay="0" data-loop="1" id="youtube-audio1"></div>
 			</div>
 			<ul class="right-sidebar">
 				<!--gallery-->
@@ -208,7 +208,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h1>Rehan & Maulidan</h1>
 					<p style="color: #bf9b73">Kami berharap Anda menjadi bagian dari hari istimewa kami!</p>
-					<div class="simply-countdown simply-countdown-one"></div>
+					<div class="simply-countdown simply-countdown-wedding"></div>
 					<br>
 					<p>
 						<a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NW0zY2Ewam91bnUzbW5ub2YwdjVxaTliNmUgcDY4MjI3cmY0dTJ0cWI1b3JrZjEwbTN1NDRAZw&tmsrc=p68227rf4u2tqb5orkf10m3u44%40group.calendar.google.com" target="_blank" class="btn btn-primary btn-sm">Save the date</a><br>
@@ -694,24 +694,28 @@
 <script src="lib/lightgallery.js/dist/plugins/fullscreen/lg-fullscreen.min.js"></script>
 
 <script>
-	day = 20; month = 5; year = 2022;
-	hour = 9; minute = 0;
+	day = 20; month = 5-1; year = 2022;
+	hour = 18; minute = 0;
 	var d = new Date(year, month, day, hour, minute, 0, 0);
 
 	// default example
-	simplyCountdown('.simply-countdown-one', {
-		year: d.getFullYear(),
-		month: d.getMonth() + 1,
-		day: d.getDate()
-	});
-
-	//jQuery example
-	$('#simply-countdown-losange').simplyCountdown({
+	simplyCountdown('.simply-countdown-wedding', {
 		year: d.getFullYear(),
 		month: d.getMonth() + 1,
 		day: d.getDate(),
-		enableUtc: false
+		hour: d.getHours(),
+		minutes: 0, // Default is 0 [0-59] integer
+		seconds: 0, // Default is 0 [0-59] integer
+		// enableUtc: true
 	});
+
+	//jQuery example
+	// $('#simply-countdown-losange').simplyCountdown({
+	// 	year: d.getFullYear(),
+	// 	month: d.getMonth() + 1,
+	// 	day: d.getDate(),
+	// 	enableUtc: false
+	// });
 
 	$('#open-invitation').click(function (){
 		$('#overlay').addClass('hide-overlay');
