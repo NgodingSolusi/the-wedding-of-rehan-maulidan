@@ -2011,8 +2011,6 @@ form label {
 }
 
 #fh5co-health-protocol{
-  /*background-image: url("../images/background/blue-brush-1.jpg");*/
-  background-size: cover;
   padding: 7em 0;
 }
 #fh5co-health-protocol .icon{
@@ -2310,6 +2308,21 @@ fadeIn {  from {
 .lg-backdrop{
   background: #ffffff;
   border: 1px solid #f2f2f2;
+}
+
+#fh5co-event:before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;
+  background-image: url('../images/background/blue-brush-1.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
