@@ -2012,6 +2012,18 @@ form label {
 
 #fh5co-health-protocol{
   padding: 7em 0;
+  position: relative;
+}
+#fh5co-health-protocol:before{
+  content: " ";
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+  background-image: url('../images/background/blue-brush-1.jpg');
 }
 #fh5co-health-protocol .icon{
   width: 54px;
