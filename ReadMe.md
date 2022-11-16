@@ -23,7 +23,7 @@
     <br />
     <a href="https://github.com/rayhanyulanda">Rayhan Yulanda</a>
     ·
-    <a href="https://github.com/maulidandev">Maulidan Nashuha</a>
+    <a href="https://github.com/maulidannashuha">Maulidan Nashuha</a>
   </p>
 </div>
 
@@ -45,16 +45,16 @@
 
 Reach me around the web :
 
-<a href="https://www.linkedin.com/in/maulidandev/" target="_blank">
+<a href="https://www.linkedin.com/in/maulidannashuha/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
-<a href="https://www.github.com/in/maulidandev/" target="_blank">
+<a href="https://www.github.com/in/maulidannashuha/" target="_blank">
 <img src="https://img.shields.io/badge/Github-%fedcba.svg?&style=flat-square&logo=github&logoColor=white&color=black" alt="Github">
 </a>
 <a href="https://www.instagram.com/maulidannashuha/" target="_blank">
 <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram">
 </a>
-<!--<a href="https://twitter.com/maulidandev" target="_blank">
+<!--<a href="https://twitter.com/ngodingsolusi" target="_blank">
 <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" alt="Twitter">
 </a>
 <a href="https://dev.to/ABSphreak" target="_blank">
@@ -95,7 +95,7 @@ Reach me around the web :
 - [Base Template](https://technext.github.io/wedding/)
 
 ### Show some :heart: with star the repo to support the project
-[![GitHub stars](https://img.shields.io/github/stars/ngodingsolusi/nikah-rehan-maulidan.svg?style=social&label=Star)](https://github.com/maulidandev/nikah-rehan-maulidan)
-[![GitHub forks](https://img.shields.io/github/forks/ngodingsolusi/nikah-rehan-maulidan.svg?style=social&label=Fork)](https://github.com/maulidandev/nikah-rehan-maulidan)
-[![GitHub watchers](https://img.shields.io/github/watchers/ngodingsolusi/nikah-rehan-maulidan.svg?style=social&label=Watch)](https://github.com/maulidandev/nikah-rehan-maulidan)
-[![GitHub followers](https://img.shields.io/github/followers/maulidandev.svg?style=social&label=Follow)](https://github.com/maulidandev/nikah-rehan-maulidan)
+[![GitHub stars](https://img.shields.io/github/stars/ngodingsolusi/nikah-rehan-maulidan.svg?style=social&label=Star)](https://github.com/maulidannashuha/the-wedding-of-rehan-maulidan)
+[![GitHub forks](https://img.shields.io/github/forks/ngodingsolusi/nikah-rehan-maulidan.svg?style=social&label=Fork)](https://github.com/maulidannashuha/the-wedding-of-rehan-maulidan)
+[![GitHub watchers](https://img.shields.io/github/watchers/ngodingsolusi/nikah-rehan-maulidan.svg?style=social&label=Watch)](https://github.com/maulidannashuha/the-wedding-of-rehan-maulidan)
+[![GitHub followers](https://img.shields.io/github/followers/maulidannashuha.svg?style=social&label=Follow)](https://github.com/maulidannashuha/the-wedding-of-rehan-maulidan)
