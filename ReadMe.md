@@ -95,7 +95,7 @@ Reach me around the web :
 - [Base Template](https://technext.github.io/wedding/)
 
 ### Show some :heart: with star the repo to support the project
-[![GitHub stars](https://img.shields.io/github/stars/ngodingsolusi/nikah-rehan-maulidan.svg?style=social&label=Star)](https://github.com/maulidannashuha/the-wedding-of-rehan-maulidan)
-[![GitHub forks](https://img.shields.io/github/forks/ngodingsolusi/nikah-rehan-maulidan.svg?style=social&label=Fork)](https://github.com/maulidannashuha/the-wedding-of-rehan-maulidan)
-[![GitHub watchers](https://img.shields.io/github/watchers/ngodingsolusi/nikah-rehan-maulidan.svg?style=social&label=Watch)](https://github.com/maulidannashuha/the-wedding-of-rehan-maulidan)
-[![GitHub followers](https://img.shields.io/github/followers/maulidannashuha.svg?style=social&label=Follow)](https://github.com/maulidannashuha/the-wedding-of-rehan-maulidan)
+[![GitHub stars](https://img.shields.io/github/stars/ngodingsolusi/the-wedding-of-rehan-maulidan.svg?style=social&label=Star)](https://github.com/ngodingsolusi/the-wedding-of-rehan-maulidan)
+[![GitHub forks](https://img.shields.io/github/forks/ngodingsolusi/the-wedding-of-rehan-maulidan.svg?style=social&label=Fork)](https://github.com/ngodingsolusi/the-wedding-of-rehan-maulidan)
+[![GitHub watchers](https://img.shields.io/github/watchers/ngodingsolusi/the-wedding-of-rehan-maulidan.svg?style=social&label=Watch)](https://github.com/ngodingsolusi/the-wedding-of-rehan-maulidan)
+[![GitHub followers](https://img.shields.io/github/followers/maulidannashuha.svg?style=social&label=Follow)](https://github.com/maulidannashuha)
