@@ -99,3 +99,5 @@ Reach me around the web :
 [![GitHub forks](https://img.shields.io/github/forks/ngodingsolusi/the-wedding-of-rehan-maulidan.svg?style=social&label=Fork)](https://github.com/ngodingsolusi/the-wedding-of-rehan-maulidan)
 [![GitHub watchers](https://img.shields.io/github/watchers/ngodingsolusi/the-wedding-of-rehan-maulidan.svg?style=social&label=Watch)](https://github.com/ngodingsolusi/the-wedding-of-rehan-maulidan)
 [![GitHub followers](https://img.shields.io/github/followers/maulidannashuha.svg?style=social&label=Follow)](https://github.com/maulidannashuha)
+
+### NOTE : PLEASE KEEP THE COPYRIGHTS OR CREDITS
